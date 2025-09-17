@@ -27,7 +27,6 @@ function App() {
         <Contact />
         <Footer />
         <TopScroll />
-
         <SocialSidebar/>
       </div>
     </div>
