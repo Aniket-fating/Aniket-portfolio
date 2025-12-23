@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 // import { FiChevronDown } from 'react-icons/fi';
 // import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from "framer-motion";
-import resume from "../../public/Aniket_Fating_ReactJS Resume.pdf";
+import resume from "../../assets/Aniket_Fating_ReactJS Resume.pdf";
 
 export const Home: React.FC = () => {
 

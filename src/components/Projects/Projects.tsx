@@ -1,8 +1,8 @@
 
 
 import React from 'react';
-import rewardsImg from '../../public/images/Garbage_Reward.png'
-import dmaImg from '../../public/images/dma.png'
+import rewardsImg from '../../assets/Garbage_Reward.png'
+import dmaImg from '../../assets/dma.png'
 import { ExternalLink } from 'lucide-react';
 
 export const Projects: React.FC = () => {

@@ -1,5 +1,5 @@
 // import { Github, Linkedin, Mail } from "lucide-react";
-import profile from '../../public/images/Profile.png'
+import profile from '../../assets/Profile.png'
 
 export const About: React.FC = () => {
 
