@@ -8,8 +8,10 @@ import {
   SiTailwindcss,
   SiRedux,
   SiTypescript,
-  SiGit,
   SiGithub,
+  SiMongodb,
+  SiJenkins,
+  SiDocker,
 } from "react-icons/si";
 
   
@@ -19,12 +21,14 @@ export const Skills: React.FC = () => {
     { icon: <SiHtml5 />, name: "HTML5", color: "hover:text-orange-500", tooltip: "bg-orange-500" },
     { icon: <SiCss3 />, name: "CSS3", color: "hover:text-blue-400", tooltip: "bg-blue-400" },
     { icon: <SiJavascript />, name: "JavaScript", color: "hover:text-yellow-400", tooltip: "bg-yellow-400 text-black" },
+    { icon: <SiTypescript />, name: "TypeScript", color: "hover:text-blue-500", tooltip: "bg-blue-500 text-black" },
     { icon: <SiReact />, name: "React.js", color: "hover:text-cyan-400", tooltip: "bg-cyan-400 text-black" },
     { icon: <SiNodedotjs />, name: "Node.js", color: "hover:text-green-400", tooltip: "bg-green-400" },
-    { icon: <SiTailwindcss />, name: "TailwindCSS", color: "hover:text-sky-400", tooltip: "bg-sky-400 text-black" },
     { icon: <SiRedux />, name: "Redux Toolkit", color: "hover:text-purple-400", tooltip: "bg-purple-500" },
-    { icon: <SiTypescript />, name: "TypeScript", color: "hover:text-blue-500", tooltip: "bg-blue-500 text-black" },
-    { icon: <SiGit />, name: "Git", color: "hover:text-red-400", tooltip: "bg-red-500" },
+    { icon: <SiTailwindcss />, name: "TailwindCSS", color: "hover:text-sky-400", tooltip: "bg-sky-400 text-black" },
+    { icon: <SiMongodb />, name: "MongoDB", color: "hover:text-green-500", tooltip: "bg-green-600" },
+    { icon: <SiJenkins />, name: "Jenkins", color: "hover:text-red-400", tooltip: "bg-red-500" },
+    { icon: <SiDocker />, name: "Docker", color: "hover:text-blue-400", tooltip: "bg-blue-500" },
     { icon: <SiGithub />, name: "GitHub", color: "hover:text-gray-200", tooltip: "bg-gray-700" },
   ];
 
@@ -39,7 +43,7 @@ export const Skills: React.FC = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-12 rounded-full"></div>
 
           {/* Skills Grid */}
-          <div className="grid grid-cols-3 md:grid-cols-5 gap-10 text-5xl text-gray-400">
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-10 text-5xl text-gray-400">
             {skills.map((skill, index) => (
               <div
                 key={index}

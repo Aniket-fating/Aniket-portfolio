@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 // import { FiChevronDown } from 'react-icons/fi';
 // import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from "framer-motion";
-import resume from "../../public/Aniket_Fating (1).pdf";
+import resume from "../../public/Aniket_Fating_Resume_FullStack.pdf";
 
 export const Home: React.FC = () => {
 
@@ -39,8 +39,8 @@ export const Home: React.FC = () => {
                     words={[
                         "UI Enthusiast",
                         "Frontend Developer",
-                        "React.js Developer",
-                        "Creative Problem Solver",
+                        "Backend Developer",
+                        "Full-Stack Developer",
                     ]}
                     loop={0} // 0 = infinite loop
                     cursor

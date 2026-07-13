@@ -15,7 +15,7 @@ export const About: React.FC = () => {
                     </h2>
                     <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-6 rounded-full gradient-underline"></div>
                     <p className="text-white text-lg max-w-2xl mx-auto">
-                        Passionate about creating exceptional digital experiences through code and design
+                        Passionate about building scalable, high-performance full-stack web applications
                     </p>
                 </div>
 
@@ -24,26 +24,28 @@ export const About: React.FC = () => {
                     {/* Left Side (Text) */}
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold text-white mb-4">
-                            Hello! I'm a <span className="highlight">Frontend Developer</span>
+                            Hello! I'm a <span className="highlight">Full-Stack Developer</span>
                         </h3>
 
                         <p className="text-white leading-relaxed">
-                            I’m a passionate <span className="text-purple-400 font-medium highlight">Frontend Developer </span>
-                            specializing in building modern, scalable, and user-friendly web applications.
-                            My core expertise lies in <span className="text-purple-400 font-medium highlight">Html, Css, React.js, Node.js, JavaScript,
-                                and UI/UX design</span>, where I focus on creating seamless digital experiences.
+                            I’m a results-driven <span className="text-purple-400 font-medium highlight">Full-Stack Developer </span>
+                            with 2 years of experience building scalable, responsive React.js applications and Node.js REST services.
+                            My core expertise lies in <span className="text-purple-400 font-medium highlight">React.js, TypeScript, Node.js, REST API design,
+                                and database-backed applications (SQL/MongoDB)</span>, with hands-on experience in JWT-based
+                            authentication, role-based access control, and CI/CD pipelines using Jenkins.
                         </p>
 
                         <p className="text-white leading-relaxed">
-                            Known for writing clean and maintainable code, I thrive on solving problems
-                            and collaborating in cross-functional teams. I enjoy exploring new technologies,
-                            contributing to open-source projects, and sharing knowledge with the developer community.
+                            Known for writing clean and maintainable code, I've improved page-load performance by 18%
+                            and cut unnecessary re-renders by 30% through strategic optimisation and memoization.
+                            I thrive on solving problems end-to-end, from frontend UI to backend API and data layer,
+                            and enjoy collaborating in cross-functional teams.
                         </p>
 
                         <p className="text-white leading-relaxed">
                             I’m currently seeking opportunities as a
-                            <span className="text-purple-400 font-medium highlight"> Frontend Developer</span> where I can
-                            apply my skills and continue growing into a full-stack role.
+                            <span className="text-purple-400 font-medium highlight"> Full-Stack Developer</span> where I can
+                            apply my end-to-end skills and continue deepening my backend and database expertise.
                         </p>
 
                         {/* Social Links */}
